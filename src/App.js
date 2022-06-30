@@ -14,9 +14,9 @@ useEffect(() => {
     <div className="App">
       <h1>Nutrition</h1>
       <div>
-        <form>
-          <input />
-          <button>Search</button>
+        <form className='form'>
+          <input className='formInput' />
+          <button className='formBtn'>Search</button>
         </form>
       </div>
       <div>

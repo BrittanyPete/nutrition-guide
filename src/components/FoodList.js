@@ -14,7 +14,7 @@ const FoodList = (props) => {
 return (
     <div>
         <h3>Food List</h3>
-        <div>
+        <div className='foodList'>
             {
                 foods.map((food, id) => {
                     console.log('food', food);

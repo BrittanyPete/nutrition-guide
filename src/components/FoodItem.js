@@ -14,8 +14,8 @@ const FoodItem = (props) => {
         <div className='card'>
             <div className='cardBody'>
                 <h3 className='cardTitle'>{food.description}</h3>
-                <button id='toggleInfo' onClick={toggleInfo}>
-                    {infoOn ? 'Hide Nutrition Info' : 'Show Nutrition Info'}
+                <button id='toggleInfo' className='nutritionBtn' onClick={toggleInfo}>
+                    {infoOn ? 'Hide Nutrition Info' : 'Nutrition Info'}
                 </button>
                 {
                     infoOn && <div>
